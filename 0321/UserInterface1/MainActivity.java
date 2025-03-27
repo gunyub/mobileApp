@@ -1,4 +1,4 @@
-package kr.co.example.userinterface1;
+package  com.example.userinterface1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
