@@ -1,4 +1,4 @@
-package com.example.calculator;
+package com.example.calculator1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,6 +26,25 @@ public class MainActivity extends AppCompatActivity {
         String s1 = eText1.getText().toString();
         String s2 = eText2.getText().toString();
         int result = Integer.parseInt(s1) + Integer.parseInt(s2);
+        eText3.setText("" + result);
+    }
+    public void cal_minus(View e) {
+        String s1 = eText1.getText().toString();
+        String s2 = eText2.getText().toString();
+        int result = Integer.parseInt(s1) - Integer.parseInt(s2);
+        eText3.setText("" + result);
+    }
+
+    public void cal_multiple(View e) {
+        String s1 = eText1.getText().toString();
+        String s2 = eText2.getText().toString();
+        int result = Integer.parseInt(s1) * Integer.parseInt(s2);
+        eText3.setText("" + result);
+    }
+    public void cal_divide(View e) {
+        String s1 = eText1.getText().toString();
+        String s2 = eText2.getText().toString();
+        int result = Integer.parseInt(s1) / Integer.parseInt(s2);
         eText3.setText("" + result);
     }
 }
