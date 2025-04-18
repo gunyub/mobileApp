@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <!-- 4개의 색상 버튼 -->
+
+    <ImageView
+        android:id="@+id/clothingImageView"
+        android:layout_width="298dp"
+        android:layout_height="355dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/img_boy"
+        android:background="#FFEB3B"/>
+
+    <Button
+        android:id="@+id/colorButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="153dp"
+        android:text="Color 1" />
+
+    <Button
+        android:id="@+id/colorButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginBottom="153dp"
+        android:text="Color 2" />
+
+    <Button
+        android:id="@+id/colorButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="153dp"
+        android:text="Color 3" />
+
+    <Button
+        android:id="@+id/colorButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="531dp"
+        android:text="Color 4" />
+
+</RelativeLayout>
