@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <!-- 오늘의 단어 제목 -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오늘의 단어"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 단어 표시 -->
+    <TextView
+        android:id="@+id/tvWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abandon"
+        android:textSize="32sp"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 뜻 -->
+    <TextView
+        android:id="@+id/tvMeaning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버리다, 포기하다"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- 버튼들 -->
+    <Button
+        android:id="@+id/btnDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="뜻과 예문 보기"/>
+
+    <Button
+        android:id="@+id/btnWordList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="외운 단어 모음 보기"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="퀴즈 풀기"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="설정"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

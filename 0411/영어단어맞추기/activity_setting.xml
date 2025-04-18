@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 설정 제목 -->
+        <TextView
+            android:id="@+id/tvSettingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="설정"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 난이도 선택 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="난이도 선택"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radioDifficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+            <RadioButton
+                android:id="@+id/radioEasy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="쉬움" />
+            <RadioButton
+                android:id="@+id/radioNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보통" />
+            <RadioButton
+                android:id="@+id/radioHard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="어려움" />
+        </RadioGroup>
+
+        <!-- 알림 설정 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알림 받기"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switchNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="매일 단어 알림 받기"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- 앱 설명 -->
+        <TextView
+            android:id="@+id/tvAppInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DailyVoca는 매일 단어를 한 개씩 알려주는 앱입니다."
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- 돌아가기 버튼 -->
+        <Button
+            android:id="@+id/btnBackFromSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="메인으로 돌아가기" />
+    </LinearLayout>
+</ScrollView>

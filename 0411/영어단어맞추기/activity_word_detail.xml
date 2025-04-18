@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvWordDetailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="단어 상세 정보"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 영어 단어 -->
+        <TextView
+            android:id="@+id/tvWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abandon"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- 의미 -->
+        <TextView
+            android:id="@+id/tvMeaning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="버리다, 포기하다"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 예문 -->
+        <TextView
+            android:id="@+id/tvExample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="He abandoned the project halfway."
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- 돌아가기 버튼 -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="메인으로 돌아가기"/>
+
+    </LinearLayout>
+</ScrollView>

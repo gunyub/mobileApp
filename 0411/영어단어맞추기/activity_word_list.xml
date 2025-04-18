@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- 제목 -->
+    <TextView
+        android:id="@+id/tvWordListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="외운 단어 목록"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 단어 리스트 -->
+    <ListView
+        android:id="@+id/wordListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp" />
+
+    <!-- 돌아가기 버튼 -->
+    <Button
+        android:id="@+id/btnBackFromList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메인으로 돌아가기"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
