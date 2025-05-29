@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="어떤 동물이 더 귀엽다고 생각하시나요?"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioDog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강아지" />
+
+        <RadioButton
+            android:id="@+id/radioCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고양이"
+            android:layout_marginStart="20dp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/placeholder" /> <!-- 기본 이미지 -->
+</LinearLayout>
