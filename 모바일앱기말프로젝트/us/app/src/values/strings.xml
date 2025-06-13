@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">캘린더 앱</string>
+
+    <!-- Login/Register -->
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="name">이름</string>
+    <string name="login">로그인</string>
+    <string name="register">회원가입</string>
+    <string name="go_to_register">회원가입 하기</string>
+    <string name="go_to_login">로그인 하기</string>
+
+    <!-- Calendar -->
+    <string name="add_event">일정 추가</string>
+    <string name="event_title">제목</string>
+    <string name="event_description">설명</string>
+    <string name="delete">삭제</string>
+    <string name="manage_members">구성원 관리</string>
+    <string name="add_calendar">공유 캘린더 추가</string>
+
+    <!-- Member -->
+    <string name="add_member">추가</string>
+    <string name="member_email_hint">이메일 입력</string>
+
+    <!-- Navigation -->
+    <string name="my_calendar">내 캘린더</string>
+    <string name="shared_calendar">공유 캘린더</string>
+    <string name="logout">로그아웃</string>
+</resources>
