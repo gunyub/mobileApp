@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_my_calendar"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="내 캘린더" />
+    <item
+        android:id="@+id/navigation_shared_calendar"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="공유 캘린더" />
+</menu>
